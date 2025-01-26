@@ -12,3 +12,7 @@ Feature: SauceDemo Application
 
   Scenario: validate checkout page functionality
     When user should click on checkout button
+
+    Scenario: validate personal details functionality
+    When user enter personal details firstname "Kunal" and lastname "Gajare" and postal code "425201"
+    Then user click on continue button 
